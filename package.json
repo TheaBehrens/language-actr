@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "language-actr:toggle"
   },
-  "repository": "https://github.com/atom/language-actr",
+  "repository": "https://github.com/TheaBehrens/language-actr",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
