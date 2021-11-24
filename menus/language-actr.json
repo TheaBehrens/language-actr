@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-actr",
+        "command": "language-actr:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-actr",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-actr:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
