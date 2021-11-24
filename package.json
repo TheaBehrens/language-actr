@@ -1,10 +1,9 @@
 {
   "name": "language-actr",
   "main": "./lib/language-actr",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Syntax highlighting for ACT-R (lisp based cognitive architecture)",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "language-actr:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
