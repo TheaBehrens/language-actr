@@ -33,14 +33,14 @@ patterns: [
       name: 'support.function.lisp'
   }
   {
-      match:'(\\(P )[a-zA-Z0-9-]+\n'
+      match:'((\\(P )|(\\(p ))[a-zA-Z0-9-]+\n'
       captures:
           1:
               name: 'punctuation.definition.function.lisp'
       name: 'entity.name.function.lisp'
   }
   {
-    match: '\\b(?i:t|nil|free|full|failure|busy)\\b'
+    match: '\\b(?i:t|nil|free|busy|error|full|empty|failure)\\b'
     name: 'constant.language.boolean.nil.lisp'
   }
 
