@@ -12,4 +12,10 @@ https://github.com/enriquefernandez/language-lisp
 For proper Lisp indentation and better editing experience this package should be used in conjunction with some advanced editing tool, for example [Parinfer](https://atom.io/packages/parinfer)
 
 
-Edit the file grammars/actr.cson if you want to add some patterns to be highlighted or change existing ones.
+Edit the file ```grammars/actr.cson``` if you want to add some patterns to be highlighted or change existing ones.
+
+There is a snippet now, too. Starting to type "production" should open a suggestion on your cursor called production, if you hit enter it will write the structure for a new production.
+You can fill it out using tab to go from place to place to complete.
+Add or change here: ```snippets/language-actr.cson```
+This is how it looks like:
+![Syntax highlighting and structure of production snippet](images/production-structure.png)
