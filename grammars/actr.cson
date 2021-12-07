@@ -33,7 +33,7 @@ patterns: [
       name: 'support.function.lisp'
   }
   {
-      match:'((\\(P )|(\\(p ))[a-zA-Z0-9-]+\n'
+      match:'((\\(P )|(\\(p ))[a-zA-Z0-9-]+'
       captures:
           1:
               name: 'punctuation.definition.function.lisp'
