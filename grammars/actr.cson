@@ -22,7 +22,7 @@ patterns: [
       name:'storage.type.variable.lisp'
   }
   {
-      match:'(( isa )|( ISA )|(\\(chunk-type)|(define-model))\\s*[a-zA-Z0-9-]+'
+      match:'(( isa )|( ISA )|(chunk-type)|(define-model))\\s*[a-zA-Z0-9-]+'
       captures:
           1:
               name: 'support.function.lisp'
