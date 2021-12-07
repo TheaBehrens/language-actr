@@ -1,0 +1,11 @@
+'.source.actr':
+    "production":
+        "prefix":"production"
+        "body":'\\(P ${1:production-name} \\"${2:optional comment string}\\"
+        \n    =${3:buffer-name}>
+        \n         ISA  ${4:chunk-name}
+        \n  ==>
+        \n    +${5:buffer-name}>
+        \n         ISA  ${6:chunk-name}
+        \n    \\)\n'
+    
