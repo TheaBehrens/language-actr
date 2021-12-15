@@ -14,7 +14,7 @@ patterns: [
     name: 'comment.line.semicolon.lisp'
   }
   {
-      match:'((=|\\+|-|@|\\?)[a-zA-Z-]+>)|==>'
+      match:'((=|\\+|-|@|\\?|\\*)[a-zA-Z-]+>)|==>'
       name:'keyword.control.lisp'
   }
   {

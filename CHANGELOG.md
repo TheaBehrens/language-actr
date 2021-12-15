@@ -1,4 +1,6 @@
-## 0.1.2 - some bug fixes and a snippet
+## 0.2.1 another buffer operation
+* can also use an asterisk in front of a buffer name (had +,-,?,@ before)
+## 0.2.0 - some bug fixes and a snippet
 * snippet for writing the basic structure of a new production
 * chunk-type highlighting fixed (not including the opening bracket any more)
 
