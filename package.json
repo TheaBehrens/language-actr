@@ -1,7 +1,7 @@
 {
   "name": "language-actr",
   "main": "./lib/language-actr",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Syntax highlighting for ACT-R (lisp based cognitive architecture)",
   "keywords": [],
   "activationCommands": {
